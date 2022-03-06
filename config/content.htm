@@ -3,8 +3,12 @@
 <p>先在github建立一個名為cd2022的空倉儲，然後用git clone複製下來，裡面只會有一個.git資料夾，去github的setting&gt;Developer settings&gt;Personal acces tokens 建立一個token方便push(token要用在.git的config裡)</p>
 <h4>建立網頁</h4>
 <p>從<a href="https://github.com/mdecourse/cmsimde/tree/4b2719e4137d10ad2784e2f2661f474d7b2215da">cmsimde</a>用</p>
-<pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">git clone --recurse-submodules 網址</pre>
-<p>接著從cmsimde&gt;up_dir裡複製除了downloads的所有檔案到倉儲裡，即可在根目錄用cms(開啟網頁)和acp(簡易的psuh)指令</p>
+<p><s>git clone --recurse-submodules 網址</s></p>
+<p><s>接著從cmsimde&gt;up_dir裡複製除了downloads的所有檔案到倉儲裡，即可在根目錄用cms(開啟網頁)和acp(簡易的psuh)指令</s></p>
+<p>上面是錯誤的，那是用在clone有子模組的倉儲，我們是要把子模組導入我們的倉儲，如果不用</p>
+<pre class="brush:css;auto-links:false;toolbar:false" contenteditable="false"> git submodules add 網址</pre>
+<p></p>
+<p>會缺少一個.gitmoules的檔案，這樣子模組無法運作，網頁也出不來。</p>
 <p></p>
 <p>git的push動作</p>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">git add .
