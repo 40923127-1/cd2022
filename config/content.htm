@@ -1,0 +1,16 @@
+<h1>Starting</h1>
+<h4>建立倉儲</h4>
+<p>先在github建立一個名為cd2022的空倉儲，然後用git clone複製下來，裡面只會有一個.git資料夾，去github的setting&gt;Developer settings&gt;Personal acces tokens 建立一個token方便push(token要用在.git的config裡)</p>
+<h4>建立網頁</h4>
+<p>從<a href="https://github.com/mdecourse/cmsimde/tree/4b2719e4137d10ad2784e2f2661f474d7b2215da">cmsimde</a>用</p>
+<pre class="brush:bash;auto-links:false;toolbar:false" contenteditable="false">git clone --recurse-submodules 網址</pre>
+<p>接著從cmsimde&gt;up_dir裡複製除了downloads的所有檔案到倉儲裡，即可在根目錄用cms(開啟網頁)和acp(簡易的psuh)指令</p>
+<p></p>
+<p>git的push動作</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">git add .
+git commit -m %message%
+git push
+
+</pre>
+<p>acp就是把這些指令寫在一起的批次檔<br/><br/></p>
+<p></p>
