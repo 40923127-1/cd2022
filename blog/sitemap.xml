@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2022-03-30T11:07:52-00:00</lastmod>
+<lastmod>2022-03-30T11:19:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2022-03-30T11:07:52-00:00</lastmod>
+<lastmod>2022-03-30T11:19:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2022-03-30T11:07:52-00:00</lastmod>
+<lastmod>2022-03-30T11:19:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2022-03-30T11:07:52-00:00</lastmod>
+<lastmod>2022-03-30T11:19:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,28 +40,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./2022-Fall-Intro-to-computer-programming.html</loc>
-<lastmod>2022-03-30T11:07:50+08:00</lastmod>
+<lastmod>2022-03-30T11:13:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2022-03-30T11:07:50+08:06</lastmod>
+<lastmod>2022-03-30T11:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/cd2022.html</loc>
-<lastmod>2022-03-30T11:07:50+08:06</lastmod>
+<lastmod>2022-03-30T11:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/yen.html</loc>
-<lastmod>2022-03-30T11:07:50+08:06</lastmod>
+<lastmod>2022-03-30T11:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

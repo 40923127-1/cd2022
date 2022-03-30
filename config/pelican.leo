@@ -21,11 +21,11 @@
 </v>
 <v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
 <v t="leo.20170709020600.1"><vh>共用</vh></v>
-<v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
-<v t="leo.20170709015947.1"><vh>遠端</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
-<v t="leo.20170709015940.1"><vh>近端</vh></v>
+<v t="leo.20170709015947.1"><vh>遠端</vh></v>
 <v t="leo.20170709015955.1"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20170709015940.1"><vh>近端</vh></v>
+<v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 </v>
 <v t="yen.20170224232341.1"><vh>編輯 template</vh>
 <v t="leo.20180115093448.1"><vh>@path theme/attila/templates</vh>
