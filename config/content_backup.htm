@@ -390,7 +390,18 @@ end</pre>
 <p></p>
 <p></p>
 <h1>期末考週</h1>
-<h2>NX左右互換繪圖重點</h2>
+<p>cd 2022 協同產品設計實習課程期末考週任務題目:</p>
+<ol>
+<li>請各學員利用<span> </span><a href="https://github.com/mdecycu/cd2022_guide/tree/main/downloads/w8_midterm/w8_uarm_nx12/uarm_robot_nx12">https://github.com/mdecycu/cd2022_guide/tree/main/downloads/w8_midterm/w8_uarm_nx12/uarm_robot_nx12</a><span> </span>目錄中的 uArm 機械手臂零件, 修改 "nx12絞鍊"與 "front joint" 零件的外型, 使能將 "Triangular connecting rod", "left link" 與 "end link" 等零組件, 與 "right crank" 與 "right link" 的組件左右互換. 各學員完成新 uArm 機械手臂組合檔案後, 請將零組件檔案放入個人 cd2022 倉儲 downloads 中的 w18/uarm 目錄後執行 acp, 並以 "完成期末考週 uarm 新組立檔案" 作為提交訊息.</li>
+<li>請各組員在完成題目 1. 的任務後, 在個人 cd2022 網頁中, 新增一個 H1 格式標題為 "期末考週" 的頁面, 並將題目 1. 的零組件繪圖過程, 以 Wink 影片展示過程細節說明, 並在頁面中說明所採用的 NX 套件版本與題目 1. 的任務執行心得.<br/>請在完成新幾何外型組立的 uArm 機械手臂後, 將組立件轉入 CoppeliaSim 4.3.0 rev3. 後, 套用<span> </span><a href="https://www.coppeliarobotics.com/helpFiles/en/simUI-widgets.htm">https://www.coppeliarobotics.com/helpFiles/en/simUI-widgets.htm</a><span> </span>圖形介面, 以 slider 控制前三軸的轉動. 完成後, 請在個人網頁的 "期末考週" 頁面, 加入第二個 Wink 影片展示過程細節說明.</li>
+<li>請在完成新幾何外型組立的 CoppeliaSim 場景後, 請與同組組員合作, 透過<span> </span><a href="https://mde.tw/cd2022_guide/content/Visualization%20Stream.html">https://mde.tw/cd2022_guide/content/Visualization%20Stream.html</a><span> </span>模式, 在 Teams 會議中, 以畫面分享及錄影功能, 由兩位 (含) 以上組員測試題目 3. 的 XML UI slider 控制功能. 完成錄影後, 請將影片 upload 至 Youtube 並嵌入參與學員的個人 "期末考週" 網頁後, 再整合至各分組網頁中的 "期末考週" 頁面, 並納入參與測試學員的心得.</li>
+<li>請接續題目 4. 的畫面分享與影片錄製模式, 由兩位 (含) 以上組員協同在新幾何外型組立的 uArm 機械手臂場景中, 加入 suctionPad 零件, 以手動操控或程式操控的方式, 錄製 block 方塊零件的取放模擬影片. 完成錄影後, 請將影片 upload 至 Youtube 並嵌入參與學員的個人 "期末考週" 網頁後, 再整合至各分組網頁中的 "期末考週" 頁面, 並納入參與測試學員的心得.</li>
+<li>請接續題目 5. 的畫面分享與影片錄製模式, 由兩位 (含) 以上組員協同在新幾何外型組立的 uArm 機械手臂場景中, 以跨網路 Python remote API 的方式, 錄製圖形介面 slider 控制前三軸的轉動影片. 完成錄影後, 請將影片 upload 至 Youtube 並嵌入參與學員的個人 "期末考週" 網頁後, 再整合至各分組網頁中的 "期末考週" 頁面, 並納入參與測試學員的心得.</li>
+</ol>
+<p>以上任務請配合期限繳交至 Teams 期末任務區.</p><h2>NX左右互換繪圖重點</h2>
+<p>使用NX1980</p>
+<p>組立的重點在與修改部分因左右互換而不合適的零件，我是用鏡射來進行修改</p>
+<p>心得:一開始在使用NX1980得時候真的是蠻不習慣的，之前都是用solidworks，NX有些地方的邏輯跟Solidworks不太一樣，會被習慣影響而且還都是英文，整個人就很煩躁，不過當用的越來越多，使用起來也順手許多，所以這次組最大的問題就是要修改零件了，本來打算修改草圖的，跟同學討論後才想到用鏡射。</p>
 <script>
 var winkVideoData_w18NX= {
   dataVersion: 1,
@@ -404,4 +415,21 @@ var winkVideoData_w18NX= {
 <!-- 將 mp4 檔案從 downloads 目錄取出 -->
 <div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_w18NX" height="100%" muted="true" width="100%">
 <source src="./../downloads/w18/wink/w18.mp4" type="video/mp4"/></video></div>
+<h2>coppeliasim</h2>
+<p></p>
+<p>123</p>
+<p></p>
+<script>
+var winkVideoDataw18cp = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoDataw18cp" height="100%" muted="true" width="100%">
+<source src="./../downloads/w18/wink/w18 copp.mp4" type="video/mp4"/></video></div>
 <div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"></div>
